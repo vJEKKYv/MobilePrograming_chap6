@@ -3,30 +3,24 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
+
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="button1"
+        android:text="VISIBILITY"
+        android:id="@+id/visibleBtn"
         />
-
-    <TextView
-        android:id="@+id/text1"
-        android:layout_width="wrap_content"
+    <Button
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textStyle="bold"
-        android:text="Lake Louise"
-        />
-
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/big"
+        android:text="INVISIBILITY"
+        android:id="@+id/invisibleBtn"
         />
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textStyle="bold"
-        android:text="Lake Louise, AB, 캐나다"
-        />
-
+        android:id="@+id/targetView"
+        android:text="이지스퍼블리싱 - 웹페이지: http://easyspub.com, 전화번호: 111-1111, 이메일: wpdnjs20@gmail.com"
+        android:autoLink="web|email|phone"
+        android:gravity="center"/>
 </LinearLayout>

@@ -6,7 +6,7 @@ plugins {
 android {
     namespace = "com.example.chap06_1_activity"
     compileSdk = 34
-
+    viewBinding {enable = true }
     defaultConfig {
         applicationId = "com.example.chap06_1_activity"
         minSdk = 24
