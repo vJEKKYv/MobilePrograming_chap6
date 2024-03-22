@@ -20,6 +20,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/targetView"
-        android:text="TARGETVIEW"
+        android:text="이지스퍼블리싱 - 웹페이지: http://easyspub.com, 전화번호: 111-1111, 이메일: wpdnjs20@gmail.com"
+        android:autoLink="web|email|phone"
         android:gravity="center"/>
 </LinearLayout>

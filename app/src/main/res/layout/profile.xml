@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="이지스퍼블리싱 - 웹페이지: http://easyspub.com, 전화번호: 111-1111, 이메일: wpdnjs20@gmail.com"
+        android:autoLink="web|email|phone"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
